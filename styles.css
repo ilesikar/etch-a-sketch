@@ -1,0 +1,19 @@
+.grid-container {
+    --cols: 1;
+    width: 500px;
+    height: 500px;
+    display: inline-grid;
+    grid-template-columns: repeat(var(--cols), 1fr);
+    grid-template-rows: repeat(var(--cols), 1fr);
+    background: #eee;
+}
+
+.grid-item {
+    
+}
+
+.hovered {
+    background-color: black;
+}
+.grid-item-content {
+}
