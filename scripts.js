@@ -46,9 +46,9 @@ function createGrid(size) {
 }
 
 function columnGenerator() {
-    for (const grid of document.querySelectorAll('.grid-container')) {
-        grid.style.setProperty('--cols', Math.ceil(Math.sqrt(grid.children.length)));
-    }
+    const grid = document.querySelector('.grid-container');
+    grid.style.setProperty('--cols', Math.ceil(Math.sqrt(grid.children.length)));
+    
 }
 
 
