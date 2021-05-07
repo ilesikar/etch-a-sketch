@@ -51,7 +51,6 @@ function columnGenerator() {
     
 }
 
-
 if( document.readyState !== 'loading' ) {
     initialize();
 } else {
